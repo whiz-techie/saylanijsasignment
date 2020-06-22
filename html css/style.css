@@ -1,0 +1,53 @@
+body{
+    background-image: url("source.gif");
+    background-repeat: round;
+}
+
+
+
+.main{
+    border: 2px solid black;
+    border-radius: 3.8px;
+    width: 200px;
+    background-image: linear-gradient(#ff9d00, #fcef03);
+
+}
+
+.result {
+    width: 96%;
+    background-color: gray;
+    color: #ffffff;
+    background-image: linear-gradient(#ffe2ac, #fcdb03);
+}
+
+.clear{
+    width: 100%;
+    margin-top: 10px;
+    background-color: gray;
+    background-image: linear-gradient(#ffe2ac, #fcdb03);
+
+}
+
+.btn{
+    background-color: grey;
+    width: 45px;
+    margin: 1px;
+    border-radius: 6px;
+    background-image: linear-gradient(#ffe2ac, #fcdb03);
+}
+
+
+.halfbtn{
+    background-color: grey;
+    width: 98px;
+    margin-top: 5px;
+    background-image: linear-gradient(#edc9af, #e3ff67);
+
+}
+
+
+
+
+
+
+
