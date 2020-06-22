@@ -306,47 +306,47 @@
 // task 11
 
 
-var dt = new Date();
-var gt = new Date();
-dt.setHours( dt.getHours() + 1 );
-document.write("<br><br>current date: " + gt)
-document.write("<br>1 Hour ago, it was " + dt );
+// var dt = new Date();
+// var gt = new Date();
+// dt.setHours( dt.getHours() + 1 );
+// document.write("<br><br>current date: " + gt)
+// document.write("<br>1 Hour ago, it was " + dt );
 
 // task 12
 
-var dt = new Date();
-var gt = new Date();
-dt.setFullYear( dt.getFullYear() - 100 );
-document.write("<br><br>current date: " + gt)
-document.write("<br>100 Years ago From Now, it was " + dt );
+// var dt = new Date();
+// var gt = new Date();
+// dt.setFullYear( dt.getFullYear() - 100 );
+// document.write("<br><br>current date: " + gt)
+// document.write("<br>100 Years ago From Now, it was " + dt );
 
 // task 13
 
-var dob = new Date();
-var adf = prompt("Enter Your Age");
-var dobint = dob.getFullYear();
-var age = parseInt(adf);
-var dateofbirth = dobint - age;
-document.write("<br><br>Your Age Is " + adf);
-document.write("<br>Your Birth Year Is " + dateofbirth);
+// var dob = new Date();
+// var adf = prompt("Enter Your Age");
+// var dobint = dob.getFullYear();
+// var age = parseInt(adf);
+// var dateofbirth = dobint - age;
+// document.write("<br><br>Your Age Is " + adf);
+// document.write("<br>Your Birth Year Is " + dateofbirth);
 
 // task 14
 
-var customername = prompt("Your Name");
-var month = prompt("Enter Month");
-var nou = prompt("Enter Number Of Units");
-var cpu = prompt("Enter Charges Per Unit");
-var nap = nou * cpu;
-var lps = 350;
-var gapadd = nap + lps;
-document.write("<br><h1>K-Electric Bill</h1>");
-document.write("<br><br>Customer Name: " + customername);
-document.write("<br>Month: " + month);
-document.write("<br>Number Of Units: " + nou);
-document.write("<br>Charges Per Unit: " + cpu);
-document.write("<br><br>Net Amount Payable(Within Due Date): " + nap);
-document.write("<br>Late Payment Surcharge: 350");
-document.write("<br>Gross Amount Payable(after Due Date): " + gapadd);
+// var customername = prompt("Your Name");
+// var month = prompt("Enter Month");
+// var nou = prompt("Enter Number Of Units");
+// var cpu = prompt("Enter Charges Per Unit");
+// var nap = nou * cpu;
+// var lps = 350;
+// var gapadd = nap + lps;
+// document.write("<br><h1>K-Electric Bill</h1>");
+// document.write("<br><br>Customer Name: " + customername);
+// document.write("<br>Month: " + month);
+// document.write("<br>Number Of Units: " + nou);
+// document.write("<br>Charges Per Unit: " + cpu);
+// document.write("<br><br>Net Amount Payable(Within Due Date): " + nap);
+// document.write("<br>Late Payment Surcharge: 350");
+// document.write("<br>Gross Amount Payable(after Due Date): " + gapadd);
 
 
 
