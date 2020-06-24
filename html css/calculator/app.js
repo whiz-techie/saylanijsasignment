@@ -26,7 +26,10 @@ function GetResult(){
     result.value = eval(result.value)
 }
 
-
+deleteButton.addEventListener('click', button => {
+    calculator.delete()
+    calculator.updateDisplay()
+  })
 
 
 
